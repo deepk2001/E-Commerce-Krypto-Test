@@ -1,0 +1,75 @@
+.CartList{
+    position: absolute;
+    top:15%;
+    left:5%;
+    width:40%;
+    height:auto;
+    padding:20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+.CartListItemBox{
+    border: 2px black solid;
+    padding:20px;
+    margin-top: 20px;
+    width: auto;
+    max-height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.CartListItemBox img{
+    max-width:100px;
+    width: auto;
+    height: 150px;
+}
+.CartItemDetails{
+    position: relative;
+    width:70%;
+    left:25%;
+    overflow: hidden;
+    top:-150px;
+}
+#itemQty{
+    position: relative;
+    top:-150px;
+    padding: 10px;
+    font-size: 20px;
+}
+#itemQty button{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.CartListItemBox h6{
+    position: relative;
+    margin-top: -150px;
+    font-size: 20px;
+    color: blue;
+}
+.Invoice{
+    position: absolute;
+    top:15%;
+    right:10%;
+    width:40%;
+    height:auto;
+    padding:20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+.Invoice button{
+    float :right;
+    margin-right: 10%;
+    background-color: #3475e4 ;
+    color: white;
+    width:100px;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 20px;
+    width:100px;
+    height: 50px;
+    margin:10px;
+    border: none;
+}

@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.body{
+  background-color: #e7edf6;
+  width:98.75vw;
+  min-height:100vh;
+  height: auto;
+}
+.LoginForm{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  position: absolute;
+  bottom:0%;
+}

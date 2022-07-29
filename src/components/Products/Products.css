@@ -1,0 +1,156 @@
+
+.itemList{
+    width:100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 10vh;
+    position: static;
+    padding: 20px;
+}
+.itemBlock{
+    width:250px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px silver;
+}
+.itemBlock:hover{
+    box-shadow: 2px 2px 2px blue;
+}
+.itemImg{
+    width: 200px;
+    height:150px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.itemBlock img{
+    position:sticky;
+    width:230px;
+    height: auto;
+    object-fit: contain;
+    
+
+   
+}
+.pricePara{
+    font-size: 18px;
+    position: relative;
+    right:5px;
+}
+.ratingsBox{
+    background-color: greenyellow;
+    width:30px
+}
+.ratingsBox1{
+    background-color: yellow;
+    width:30px
+}
+.ratingsBox2{
+    background-color:#f28e8d;
+    width:30px
+}
+.itemBlock p{
+    margin-bottom: 5px;
+}
+.itemAccess{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.favoriteSelector{
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border:none;
+}
+.favoriteSelector1{
+    float: right;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border:none;
+    background-color: white;
+}
+.addToCart{
+    float: right;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    
+}
+.cartHelp{
+    float: right;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.cartHelp button{
+    width:30px;
+    height:auto;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+}
+.ProductDetailsBox{
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    transform :translate(-50%,-50%);
+    width:80%;
+    height: 80%;
+    background-color: white;
+    z-index: 3;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px silver;
+}
+.ProductDetailsBox img{
+    height:80%;
+    width:auto;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    
+}
+.ProductInfo{
+    position: absolute;
+    right:30%;
+    top:50%;
+    width:40%;
+    height:80%;
+    background-color: white;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    z-index: 5;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px silver
+}
+.pricePara1{
+    font-size: 20px;
+    position: relative;
+    right:5px;
+    margin-top: 2%;
+}
+
+.AddBuy{
+    margin-left:20px;
+    padding: 10px;
+    background-color: #3475e4 ;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.AddBuy:hover{
+    background-color: grey;
+    color: black;
+}
